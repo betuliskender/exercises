@@ -7,13 +7,13 @@ void setup() {
   rect(height/2, width/2, 200, 400);
   ellipseMode(CENTER);
   //Red light
-  fill(40);
+  fill(100);
   ellipse(height/2, width/2-110, 100, 100);
   //Yellow light
-  fill(40);
+  fill(100);
   ellipse(height/2, width/2, 100, 100);
   //Green light
-  fill(40);
+  fill(100);
   ellipse(height/2, width/2+110, 100, 100);
 }
 
@@ -29,9 +29,9 @@ void draw() {
     ellipse(height/2, width/2, 100, 100);
     //Green light counter
   } else if (frameCount > 150) {
-    fill(40);
+    fill(100);
     ellipse(height/2, width/2-110, 100, 100);
-    fill(40);
+    fill(100);
     ellipse(height/2, width/2, 100, 100);
     fill(0, 255, 0);
     ellipse(height/2, width/2+110, 100, 100);
